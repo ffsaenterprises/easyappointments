@@ -15,7 +15,7 @@ services:
       - '.:/var/www/html'
       - './docker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf'
     ports:
-      - '8070:80'
+      - '81:81'
 
   mysql:
     image: 'mysql:8.0'
